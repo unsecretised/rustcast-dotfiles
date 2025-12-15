@@ -1,0 +1,36 @@
+placeholder = "Sigma Productivity"
+
+[buffer_rules]
+clear_on_hide = true
+clear_on_enter = true
+
+[theme]
+background_opacity = 1.0
+blur = false
+show_icons = true
+show_scroll_bar = true
+
+[[shells]]
+command   = ["~/.config/rustcast/assets/spotify/next.sh"]
+icon_path = "~/.config/rustcast/assets/spotify.png"
+alias     = "Spotify Next"
+alias_lc  = "next song" # search for this command using this text
+
+[[shells]]
+command   = ["~/.config/rustcast/assets/spotify/prev.sh"]
+icon_path = "~/.config/rustcast/assets/spotify.png"
+alias     = "Spotify Previous"
+alias_lc  = "prev song" # search for this command using this text
+
+[[shells]]
+command   = ["~/.config/rustcast/assets/spotify/toggle_play.sh"]
+icon_path = "~/.config/rustcast/assets/spotify.png"
+alias     = "Spotify Status"
+alias_lc  = "play pause" # search for this command using this text
+
+[[shells]]
+command   = ["~/.config/rustcast/assets/spotify/toggle_repeat.sh"]
+icon_path = "~/.config/rustcast/assets/spotify.png"
+alias     = "Spotify Repeat"
+alias_lc  = "repeat song" # search for this command using this text
+
