@@ -1,4 +1,5 @@
-placeholder = "Sigma Productivity"
+placeholder = "You can customise it!!"
+search_url = "https://google.com/search?q=%s"
 
 [buffer_rules]
 clear_on_hide = true
@@ -7,7 +8,7 @@ clear_on_enter = true
 [theme]
 background_opacity = 1.0
 blur = false
-show_icons = false
+show_icons = true
 show_scroll_bar = true
 
 [[shells]]
