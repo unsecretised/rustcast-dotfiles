@@ -7,7 +7,7 @@ clear_on_enter = true
 [theme]
 background_opacity = 1.0
 blur = false
-show_icons = true
+show_icons = false
 show_scroll_bar = true
 
 [[shells]]
