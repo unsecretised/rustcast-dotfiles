@@ -1,37 +1,40 @@
-placeholder = "You can customise it!!"
-search_url = "https://google.com/search?q=%s"
+toggle_mod = "ALT"
+toggle_key = "Space"
+placeholder = "    Elegance is beauty"
+search_url = "https://duckduckgo.com/search?q=%s"
 
 [buffer_rules]
 clear_on_hide = true
 clear_on_enter = true
 
 [theme]
+text_color = [0.95, 0.95, 0.96]
+background_color = [0.11, 0.11, 0.13]
 background_opacity = 1.0
 blur = false
-show_icons = true
+show_icons = false
 show_scroll_bar = true
 
 [[shells]]
-command   = ["~/.config/rustcast/assets/spotify/next.sh"]
+command = "~/.config/rustcast/assets/spotify/next.sh"
 icon_path = "~/.config/rustcast/assets/spotify.png"
-alias     = "Spotify Next"
-alias_lc  = "next song" # search for this command using this text
+alias = "Spotify Next"
+alias_lc = "next song"
 
 [[shells]]
-command   = ["~/.config/rustcast/assets/spotify/prev.sh"]
+command = "~/.config/rustcast/assets/spotify/prev.sh"
 icon_path = "~/.config/rustcast/assets/spotify.png"
-alias     = "Spotify Previous"
-alias_lc  = "prev song" # search for this command using this text
+alias = "Spotify Previous"
+alias_lc = "prev song"
 
 [[shells]]
-command   = ["~/.config/rustcast/assets/spotify/toggle_play.sh"]
+command = "~/.config/rustcast/assets/spotify/toggle_play.sh"
 icon_path = "~/.config/rustcast/assets/spotify.png"
-alias     = "Spotify Status"
-alias_lc  = "play pause" # search for this command using this text
+alias = "Spotify Status"
+alias_lc = "play pause"
 
 [[shells]]
-command   = ["~/.config/rustcast/assets/spotify/toggle_repeat.sh"]
+command = "~/.config/rustcast/assets/spotify/toggle_repeat.sh"
 icon_path = "~/.config/rustcast/assets/spotify.png"
-alias     = "Spotify Repeat"
-alias_lc  = "repeat song" # search for this command using this text
-
+alias = "Spotify Repeat"
+alias_lc = "repeat song"
