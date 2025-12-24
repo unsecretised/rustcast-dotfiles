@@ -1,6 +1,6 @@
 toggle_mod = "ALT"
 toggle_key = "Space"
-placeholder = "    Elegance is beauty"
+placeholder = "RustCast"
 search_url = "https://duckduckgo.com/search?q=%s"
 
 [buffer_rules]
@@ -8,7 +8,7 @@ clear_on_hide = true
 clear_on_enter = true
 
 [theme]
-text_color = [0.95, 0.95, 0.96]
+text_color = [0.8, 0.8, 0.96]
 background_color = [0.11, 0.11, 0.13]
 background_opacity = 1.0
 blur = false
