@@ -22,6 +22,12 @@ alias = "Spotify Next"
 alias_lc = "next song"
 
 [[shells]]
+command = "~/.config/rustcast/echo.sh"
+icon_path = "~/.config/rustcast/assets/spotify.png"
+alias = "Abcd"
+alias_lc = "abcd abcd"
+
+[[shells]]
 command = "~/.config/rustcast/assets/spotify/prev.sh"
 icon_path = "~/.config/rustcast/assets/spotify.png"
 alias = "Spotify Previous"
