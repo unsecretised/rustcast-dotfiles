@@ -1,6 +1,6 @@
 toggle_mod = "ALT"
 toggle_key = "Space"
-placeholder = "RustCast"
+placeholder = "unsecretised"
 search_url = "https://duckduckgo.com/search?q=%s"
 haptic_feedback = true
 
