@@ -13,7 +13,7 @@ text_color = [0.95, 0.95, 0.96]
 background_color = [0.0, 0.0, 0.0]
 background_opacity = 0.1
 blur = false
-show_icons = true
+show_icons = false
 show_scroll_bar = true
 font = "Iosevka"
 
