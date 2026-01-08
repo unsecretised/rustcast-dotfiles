@@ -2,17 +2,18 @@ toggle_mod = "ALT"
 toggle_key = "Space"
 placeholder = "RustCast"
 search_url = "https://duckduckgo.com/search?q=%s"
+haptic_feedback = true
 
 [buffer_rules]
 clear_on_hide = true
 clear_on_enter = true
 
 [theme]
-text_color = [0.85, 0.85, 0.85]
+text_color = [0.95, 0.95, 0.96]
 background_color = [0.0, 0.0, 0.0]
 background_opacity = 0.1
 blur = false
-show_icons = false
+show_icons = true
 show_scroll_bar = true
 font = "Iosevka"
 
