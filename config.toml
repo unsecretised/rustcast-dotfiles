@@ -1,9 +1,8 @@
-toggle_mod = "ALT"
-toggle_key = "Space"
-placeholder = "unsecretised"
+toggle_hotkey = "ALT+SPACE"
+placeholder = "It's a secret"
 search_url = "https://duckduckgo.com/search?q=%s"
-haptic_feedback = true
-show_tray_icon=true
+haptic_feedback = false
+show_tray_icon = true
 
 [buffer_rules]
 clear_on_hide = true
@@ -11,39 +10,8 @@ clear_on_enter = true
 
 [theme]
 text_color = [0.95, 0.95, 0.96]
-background_color = [0.0, 0.0, 0.0]
-background_opacity = 0.1
+background_color = [0.09, 0.09, 0.09]
 blur = false
-show_icons = false
+show_icons = true
 show_scroll_bar = true
 font = "Iosevka"
-
-[[shells]]
-command = "~/.config/rustcast/assets/spotify/next.sh"
-icon_path = "~/.config/rustcast/assets/spotify.png"
-alias = "Spotify Next"
-alias_lc = "next song"
-
-[[shells]]
-command = "~/.config/rustcast/echo.sh"
-icon_path = "~/.config/rustcast/assets/spotify.png"
-alias = "Abcd"
-alias_lc = "abcd abcd"
-
-[[shells]]
-command = "~/.config/rustcast/assets/spotify/prev.sh"
-icon_path = "~/.config/rustcast/assets/spotify.png"
-alias = "Spotify Previous"
-alias_lc = "prev song"
-
-[[shells]]
-command = "~/.config/rustcast/assets/spotify/toggle_play.sh"
-icon_path = "~/.config/rustcast/assets/spotify.png"
-alias = "Spotify Status"
-alias_lc = "play pause"
-
-[[shells]]
-command = "~/.config/rustcast/assets/spotify/toggle_repeat.sh"
-icon_path = "~/.config/rustcast/assets/spotify.png"
-alias = "Spotify Repeat"
-alias_lc = "repeat song"
