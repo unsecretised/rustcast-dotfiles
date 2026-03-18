@@ -1,9 +1,9 @@
 toggle_hotkey = "ALT+SPACE"
+clipboard_hotkey = "SUPER+SHIFT+C"
 placeholder = "It's a secret"
 search_url = "https://duckduckgo.com/search?q=%s"
 haptic_feedback = false
-show_tray_icon = true
-clipboard_hotkey = "SUPER+SHIFT+C"
+show_trayicon = true
 log_path = "~/Documents/coding/rc/target/dbglogs.log"
 
 [buffer_rules]
@@ -12,19 +12,19 @@ clear_on_enter = true
 
 [theme]
 text_color = [1.0, 1.0, 1.0]
-background_color = [0.09, 0.09, 0.09]
+background_color = [0.0, 0.0, 0.0]
 blur = false
 show_icons = true
 show_scroll_bar = true
-font = "Iosevka"
-
-[modes]
-presentation = "/usr/bin/touch ~/.config/rustcast/abcd.txt"
-something = "touch ~/.config/rustcast/abcd.txt"
 
 [[shells]]
 command = "~/.config/rustcast/assets/spotify/next.sh"
-# Change to change the display name
 icon_path = "/Applications/Spotify.app/Contents/Resources/AppIcon.icns"
 alias = "Next Song"
 alias_lc = "next"
+
+[modes]
+presentation = "/usr/bin/touch ~/.config/rustcast/abcd.txt"
+
+[aliases]
+ff = "firefox"
