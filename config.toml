@@ -4,6 +4,11 @@ placeholder = "It's a secret"
 search_url = "https://duckduckgo.com/search?q=%s"
 haptic_feedback = false
 show_trayicon = true
+search_dirs = [
+    "~/Documents",
+    "~/Desktop",
+    "~/Downloads",
+]
 log_path = "~/Documents/coding/rc/target/dbglogs.log"
 
 [buffer_rules]
@@ -11,20 +16,37 @@ clear_on_hide = true
 clear_on_enter = true
 
 [theme]
-text_color = [1.0, 1.0, 1.0]
-background_color = [0.0, 0.0, 0.0]
+text_color = [
+    1.0,
+    1.0,
+    1.0,
+]
+background_color = [
+    0.0,
+    0.0,
+    0.0,
+]
 blur = false
 show_icons = true
 show_scroll_bar = true
 
 [[shells]]
-command = "~/.config/rustcast/assets/spotify/next.sh"
-icon_path = "/Applications/Spotify.app/Contents/Resources/AppIcon.icns"
-alias = "Next Song"
-alias_lc = "next"
+command = "~/.config/rustcast/sites.sh n8n"
+alias = "Open n8n"
+alias_lc = "n8n"
+
+[[shells]]
+command = "~/.config/rustcast/sites.sh search"
+alias = "Open Searxng"
+alias_lc = "search"
+
+[[shells]]
+command = "~/.config/rustcast/sites.sh ai"
+alias = "Open OWUI"
+alias_lc = "owui"
 
 [modes]
-presentation = "/usr/bin/touch ~/.config/rustcast/abcd.txt"
 
 [aliases]
 ff = "firefox"
+open = "owui"
