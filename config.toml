@@ -1,15 +1,13 @@
 toggle_hotkey = "ALT+SPACE"
 clipboard_hotkey = "SUPER+SHIFT+C"
-placeholder = "It's a secret"
+placeholder = "Time to be productive!"
 search_url = "https://duckduckgo.com/search?q=%s"
 haptic_feedback = false
 show_trayicon = true
-search_dirs = [
-    "~/Documents",
-    "~/Desktop",
-    "~/Downloads",
-]
-log_path = "~/Documents/coding/rc/target/dbglogs.log"
+search_dirs = ["~"]
+auto_suggest = false
+log_path = "/tmp/rustcast.log"
+debounce_delay = 300
 
 [buffer_rules]
 clear_on_hide = true
@@ -28,7 +26,7 @@ background_color = [
 ]
 blur = false
 show_icons = true
-show_scroll_bar = true
+show_scroll_bar = false
 
 [[shells]]
 command = "~/.config/rustcast/sites.sh n8n"
@@ -46,6 +44,8 @@ alias = "Open OWUI"
 alias_lc = "owui"
 
 [modes]
+default = ""
+presentation = "~/.config/rustcast/sites.sh ms"
 
 [aliases]
 ff = "firefox"
