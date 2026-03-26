@@ -1,4 +1,4 @@
-toggle_hotkey = "ALT+SPACE"
+toggle_hotkey = "SUPER+SPACE"
 clipboard_hotkey = "SUPER+SHIFT+C"
 placeholder = "Time to be productive!"
 search_url = "https://duckduckgo.com/search?q=%s"
@@ -44,8 +44,8 @@ alias = "Open OWUI"
 alias_lc = "owui"
 
 [modes]
-default = ""
 presentation = "~/.config/rustcast/sites.sh ms"
+default = ""
 
 [aliases]
 ff = "firefox"
