@@ -48,14 +48,10 @@ alias_lc = "anscjabsjvsdja"
 hotkey = "cmd+p"
 
 [[shells]]
-command = "open /Users/umangsurana/Library/Developer/Xcode/DerivedData/sxitch-gvgkztjbeqqvkshbtsiwxyydklwv/Build/Products/Release/sxitch.app"
+command = "open ~/Library/Developer/Xcode/DerivedData/sxitch-gvgkztjbeqqvkshbtsiwxyydklwv/Build/Products/Release/sxitch.app"
 alias = "Sxitch - finder"
 alias_lc = "sxitch dev"
 hotkey = ""
-
-[modes]
-work = "/Users/umangsurana/.config/rustcast/work_mode.sh"
-default = "/Users/umangsurana/.config/rustcast/coding_mode.sh"
 
 [aliases]
 vsc = "visual"
