@@ -1,13 +1,18 @@
-toggle_hotkey = "SUPER+SPACE"
-clipboard_hotkey = "SUPER+SHIFT+C"
-placeholder = "Time to be productive!"
+toggle_hotkey = "cmd+space"
+clipboard_hotkey = "cmd+shift+c"
+event_duration = 60
+main_page = "blank"
+start_at_login = true
+placeholder = "It's a secret"
 search_url = "https://duckduckgo.com/search?q=%s"
 haptic_feedback = false
+cbhist = true
+cbhist_paste_on_select = false
 show_trayicon = true
-search_dirs = ["~"]
-auto_suggest = false
+search_dirs = []
 log_path = "/tmp/rustcast.log"
 debounce_delay = 300
+auto_update = true
 
 [buffer_rules]
 clear_on_hide = true
@@ -15,9 +20,9 @@ clear_on_enter = true
 
 [theme]
 text_color = [
-    1.0,
-    1.0,
-    1.0,
+    0.95,
+    0.95,
+    0.96,
 ]
 background_color = [
     0.0,
@@ -27,26 +32,31 @@ background_color = [
 blur = false
 show_icons = true
 show_scroll_bar = false
+font = ""
+theme_mode = "dark"
 
 [[shells]]
-command = "~/.config/rustcast/sites.sh n8n"
-alias = "Open n8n"
-alias_lc = "n8n"
+command = "open https://reddit.com"
+alias = "Reddit"
+alias_lc = "files"
+hotkey = "CTRL+SHIFT+SPACE"
 
 [[shells]]
-command = "~/.config/rustcast/sites.sh search"
-alias = "Open Searxng"
-alias_lc = "search"
+command = "open /Applications/Ghostty.app"
+alias = "Ghostty"
+alias_lc = "anscjabsjvsdja"
+hotkey = "cmd+p"
 
 [[shells]]
-command = "~/.config/rustcast/sites.sh ai"
-alias = "Open OWUI"
-alias_lc = "owui"
+command = "open /Users/umangsurana/Library/Developer/Xcode/DerivedData/sxitch-gvgkztjbeqqvkshbtsiwxyydklwv/Build/Products/Release/sxitch.app"
+alias = "Sxitch - finder"
+alias_lc = "sxitch dev"
+hotkey = ""
 
 [modes]
-presentation = "~/.config/rustcast/sites.sh ms"
-default = ""
+work = "/Users/umangsurana/.config/rustcast/work_mode.sh"
+default = "/Users/umangsurana/.config/rustcast/coding_mode.sh"
 
 [aliases]
+vsc = "visual"
 ff = "firefox"
-open = "owui"
