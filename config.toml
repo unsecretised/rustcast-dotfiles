@@ -29,6 +29,11 @@ background_color = [
     0.0,
     0.0,
 ]
+secondary_bg_color = [
+    0.1,
+    0.1,
+    0.1,
+]
 blur = false
 show_icons = true
 show_scroll_bar = false
@@ -53,6 +58,8 @@ alias = "Sxitch - finder"
 alias_lc = "sxitch dev"
 hotkey = ""
 
+[modes]
+
 [aliases]
-vsc = "visual"
 ff = "firefox"
+vsc = "visual"
