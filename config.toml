@@ -3,6 +3,7 @@ clipboard_hotkey = "cmd+shift+c"
 event_duration = 60
 main_page = "blank"
 start_at_login = true
+window_location = "Default"
 placeholder = "It's a secret"
 search_url = "https://duckduckgo.com/search?q=%s"
 haptic_feedback = false
@@ -13,6 +14,7 @@ search_dirs = []
 log_path = "/tmp/rustcast.log"
 debounce_delay = 300
 auto_update = true
+restore_input_source_on_close = true
 
 [buffer_rules]
 clear_on_hide = true
@@ -22,7 +24,7 @@ clear_on_enter = true
 text_color = [
     0.95,
     0.95,
-    0.96,
+    0.95,
 ]
 background_color = [
     0.0,
@@ -41,12 +43,6 @@ font = ""
 theme_mode = "dark"
 
 [[shells]]
-command = "open https://reddit.com"
-alias = "Reddit"
-alias_lc = "files"
-hotkey = "CTRL+SHIFT+SPACE"
-
-[[shells]]
 command = "open /Applications/Ghostty.app"
 alias = "Ghostty"
 alias_lc = "anscjabsjvsdja"
@@ -54,12 +50,19 @@ hotkey = "cmd+p"
 
 [[shells]]
 command = "open ~/Library/Developer/Xcode/DerivedData/sxitch-gvgkztjbeqqvkshbtsiwxyydklwv/Build/Products/Release/sxitch.app"
-alias = "Sxitch - finder"
+icon_path = "~/Documents/sxitch_icon.png"
+alias = "Sxitch"
 alias_lc = "sxitch dev"
 hotkey = ""
+
+[[shells]]
+command = "open https://github.com"
+alias = "Open GitHub"
+alias_lc = "github gh !gh"
 
 [modes]
 
 [aliases]
+disc = "vesktop"
 ff = "firefox"
 vsc = "visual"
