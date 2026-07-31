@@ -21,21 +21,9 @@ clear_on_hide = true
 clear_on_enter = true
 
 [theme]
-text_color = [
-    0.95,
-    0.95,
-    0.95,
-]
-background_color = [
-    0.0,
-    0.0,
-    0.0,
-]
-secondary_bg_color = [
-    0.1,
-    0.1,
-    0.1,
-]
+text_color = [0.95, 0.95, 0.95]
+background_color = [0.0, 0.0, 0.0]
+secondary_bg_color = [0.1, 0.1, 0.1]
 blur = false
 show_icons = true
 show_scroll_bar = false
@@ -63,6 +51,6 @@ alias_lc = "github gh !gh"
 [modes]
 
 [aliases]
-disc = "vesktop"
 ff = "firefox"
 vsc = "visual"
+disc = "vesktop"
