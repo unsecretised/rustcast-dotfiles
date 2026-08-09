@@ -12,7 +12,11 @@ cbhist = true
 cbhist_paste_on_select = false
 show_trayicon = true
 search_dirs = []
-blacklist = ["bluetooth file exchange"]
+blacklist = [
+    "bluetooth file exchange",
+    "discord",
+    "calendarfilehandler",
+]
 log_path = "/tmp/rustcast.log"
 debounce_delay = 300
 auto_update = true
@@ -41,7 +45,7 @@ secondary_bg_color = [
 blur = false
 show_icons = true
 show_scroll_bar = false
-font = ""
+font = "Iosevka"
 theme_mode = "dark"
 
 [[shells]]
@@ -65,6 +69,6 @@ alias_lc = "github gh !gh"
 [modes]
 
 [aliases]
-vsc = "visual"
-disc = "vesktop"
 ff = "firefox"
+disc = "vesktop"
+vsc = "visual"
